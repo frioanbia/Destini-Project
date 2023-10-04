@@ -13,6 +13,8 @@
 		1AD62A4E2ACA9E710087DC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD62A4C2ACA9E710087DC99 /* Main.storyboard */; };
 		1AD62A502ACA9E720087DC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD62A4F2ACA9E720087DC99 /* Assets.xcassets */; };
 		1AD62A532ACA9E720087DC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD62A512ACA9E720087DC99 /* LaunchScreen.storyboard */; };
+		1AD62A5E2ACA9EBB0087DC99 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD62A5D2ACA9EBB0087DC99 /* Story.swift */; };
+		1AD62A602ACA9ECD0087DC99 /* StoryBrian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD62A5F2ACA9ECD0087DC99 /* StoryBrian.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1AD62A4F2ACA9E720087DC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AD62A522ACA9E720087DC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AD62A542ACA9E720087DC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD62A5D2ACA9EBB0087DC99 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		1AD62A5F2ACA9ECD0087DC99 /* StoryBrian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrian.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AB39B922ACCEC2900FBEADB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1AD62A462ACA9E710087DC99 /* AppDelegate.swift */,
+				1AD62A482ACA9E710087DC99 /* SceneDelegate.swift */,
+				1AD62A512ACA9E720087DC99 /* LaunchScreen.storyboard */,
+				1AD62A542ACA9E720087DC99 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		1AB39B932ACCEC3A00FBEADB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1AD62A4F2ACA9E720087DC99 /* Assets.xcassets */,
+			);
+			name = "Preview Content";
+			sourceTree = "<group>";
+		};
 		1AD62A3A2ACA9E710087DC99 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +79,38 @@
 		1AD62A452ACA9E710087DC99 /* Destini Project */ = {
 			isa = PBXGroup;
 			children = (
-				1AD62A462ACA9E710087DC99 /* AppDelegate.swift */,
-				1AD62A482ACA9E710087DC99 /* SceneDelegate.swift */,
-				1AD62A4A2ACA9E710087DC99 /* ViewController.swift */,
-				1AD62A4C2ACA9E710087DC99 /* Main.storyboard */,
-				1AD62A4F2ACA9E720087DC99 /* Assets.xcassets */,
-				1AD62A512ACA9E720087DC99 /* LaunchScreen.storyboard */,
-				1AD62A542ACA9E720087DC99 /* Info.plist */,
+				1AD62A5A2ACA9E7E0087DC99 /* Model */,
+				1AD62A5B2ACA9E870087DC99 /* View */,
+				1AD62A5C2ACA9E910087DC99 /* Controller */,
+				1AB39B922ACCEC2900FBEADB /* Others */,
+				1AB39B932ACCEC3A00FBEADB /* Preview Content */,
 			);
 			path = "Destini Project";
+			sourceTree = "<group>";
+		};
+		1AD62A5A2ACA9E7E0087DC99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AD62A5D2ACA9EBB0087DC99 /* Story.swift */,
+				1AD62A5F2ACA9ECD0087DC99 /* StoryBrian.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1AD62A5B2ACA9E870087DC99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AD62A4C2ACA9E710087DC99 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AD62A5C2ACA9E910087DC99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD62A4A2ACA9E710087DC99 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +187,8 @@
 				1AD62A4B2ACA9E710087DC99 /* ViewController.swift in Sources */,
 				1AD62A472ACA9E710087DC99 /* AppDelegate.swift in Sources */,
 				1AD62A492ACA9E710087DC99 /* SceneDelegate.swift in Sources */,
+				1AD62A602ACA9ECD0087DC99 /* StoryBrian.swift in Sources */,
+				1AD62A5E2ACA9EBB0087DC99 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
